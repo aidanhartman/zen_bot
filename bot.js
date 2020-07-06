@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 const { token, prefix } = require('./auth.json');
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
 
 client.on("ready", () => {
   console.log("Under Construction");
