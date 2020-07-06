@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "discord.js": "^12.2.0",
-    "embed-js": "^5.0.3"
+    "embed-js": "^5.0.3",
     "request": "2.81.0"
   }
