@@ -1,0 +1,13 @@
+{
+  "name": "lebebechinchilla",
+  "version": "1.0.0",
+  "description": "Zen bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "embed-js": "^5.0.3"
+    "request": "2.81.0"
+  }
