@@ -225,13 +225,27 @@ client.on('guildMemberAdd', member => {
   };
   if (command.starts.With("quote")) {
     const number = 2;
-    var random = Math.floor(Math.random() * (number - 1 +1)) + 2;
+    var random = Math.floor(Math.random() * (number - 1 +1)) + 3;
     switch (random) {
       case 1:
         message.channel.send({ embed: meow});
         break;
       case 2:
         message.channel.send({ embed: rawr})
+    }
+  };
+if (command.starts.With("zen")) {
+    const number = 2;
+    var random = Math.floor(Math.random() * (number - 1 +1)) + 2;
+    switch (random) {
+      case 1:
+        message.channel.send({ embed: zenembeded});
+        break;
+      case 2:
+        message.channel.send({ embed: zenembeded2});
+        break;
+      case 3:
+        message.channel.send({ embed: zenembeded3});
     }
   }
 });
