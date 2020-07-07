@@ -145,6 +145,20 @@ client.on('guildMemberAdd', member => {
       "https://cdn.glitch.com/bdf0161e-8627-4edb-a3b1-35a9c8ef9f11%2FZen1.jpg?v=1590178842895"
     }
   };
+if (command.starts.With("zen")) {
+    const number = 2;
+    var random = Math.floor(Math.random() * (number - 1 +1)) + 2;
+    switch (random) {
+      case 1:
+        message.channel.send({ embed: zenembeded});
+        break;
+      case 2:
+        message.channel.send({ embed: zenembeded2});
+        break;
+      case 3:
+        message.channel.send({ embed: zenembeded3});
+    }
+  }
   
   const help = {
     color: "#3cb371",
