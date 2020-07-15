@@ -147,7 +147,7 @@ client.on('guildMemberAdd', member => {
   };
 if (command.starts.With("zen")) {
     const number = 2;
-    var random = Math.floor(Math.random() * (number - 1 +1)) + 5;
+    var random = Math.floor(Math.random() * (number - 1 +1)) + 7;
     switch (random) {
       case 1:
         message.channel.send({ embed: zenembed1 });
