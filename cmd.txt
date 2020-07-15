@@ -1,0 +1,26 @@
+ if (command === "chomp") {
+    message.channel.send( {embed: zenembed} )
+  };
+  
+  if (command === "rawr") {
+    message.channel.send({embed: zenembed2})
+  };
+  
+  if (command === "tired") {
+    message.channel.send({embed: zenembed3})
+  };
+  
+  if (command === "cute") {
+    message.channel.send({embed: zenembed4})
+  };
+  
+  if (command === "friends"){
+    message.channel.send({embed: zenembed5})
+  };
+  
+  if (command === "ahh") {
+    message.channel.send({embed: zenembed6})
+  };
+  if (command === "nu") {
+    message.channel.send({embed:zenembed7})
+  };
