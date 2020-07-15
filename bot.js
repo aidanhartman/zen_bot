@@ -145,6 +145,29 @@ client.on('guildMemberAdd', member => {
       "https://cdn.glitch.com/bdf0161e-8627-4edb-a3b1-35a9c8ef9f11%2FZen1.jpg?v=1590178842895"
     }
   };
+if (command.starts.With("zen")) {
+    const number = 2;
+    var random = Math.floor(Math.random() * (number - 1 +1)) + 3;
+    switch (random) {
+      case 1:
+        message.channel.send({ embed: zenembed1});
+        break;
+      case 2:
+        message.channel.send({ embed: zenembed2});
+	break;
+      case 3:
+	message.channel.send({ embed: zenembed3});
+	break;
+      case 4:
+	message.channel.send({ embed: zenembed4});
+	break;
+      case 5:
+        message.channel.send({ embed: zenembed5});
+	break;
+      case 6:
+	message.channel.send({ embed: zenembed6});
+    }
+  };
   
   const help = {
     color: "#3cb371",
@@ -194,34 +217,6 @@ client.on('guildMemberAdd', member => {
         name: "Rawr"
       }
     ]
-  }
-  
-  
-  if (command === "chomp") {
-    message.channel.send( {embed: zenembed} )
-  };
-  
-  if (command === "rawr") {
-    message.channel.send({embed: zenembed2})
-  };
-  
-  if (command === "tired") {
-    message.channel.send({embed: zenembed3})
-  };
-  
-  if (command === "cute") {
-    message.channel.send({embed: zenembed4})
-  };
-  
-  if (command === "friends"){
-    message.channel.send({embed: zenembed5})
-  };
-  
-  if (command === "ahh") {
-    message.channel.send({embed: zenembed6})
-  };
-  if (command === "nu") {
-    message.channel.send({embed:zenembed7})
   };
   if (command.starts.With("quote")) {
     const number = 2;
